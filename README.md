@@ -15,3 +15,21 @@ O **ConectaAWS** é um projeto que cria um servidor Node.js capaz de consumir um
 - **Axios**: Biblioteca para fazer requisições HTTP para consumir APIs.
 - **AWS SDK**: Biblioteca oficial da AWS para interagir com serviços da AWS, como Lambda.
 
+## Substitua as variáveis:
+
+Abra o arquivo `index.js` e substitua as seguintes variáveis com as suas credenciais e dados específicos:
+
+- **'SUA_ACCESS_KEY'** e **'SUA_SECRET_KEY'** com suas credenciais da AWS.
+- **'SUA_API_KEY'** com a chave da API, se sua API no API Gateway estiver protegida por uma chave.
+- **'nome-da-sua-funcao-lambda'** com o nome da sua função Lambda.
+- **'urlDaApi'** com a URL da sua API no API Gateway.
+
+## Rodar o servidor:
+
+Após configurar o arquivo, execute o servidor com o seguinte comando:
+
+```bash
+node index.js
+```
+
+
