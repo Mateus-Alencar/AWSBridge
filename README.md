@@ -1,7 +1,7 @@
-# Projeto ConectaAWS
+# Projeto AWSBridge
 
 ## Descrição
-O **ConectaAWS** é um projeto que cria um servidor Node.js capaz de consumir uma API da AWS e invocar funções **AWS Lambda**. Este projeto serve como uma demonstração de como integrar serviços da AWS em um servidor web, utilizando **Express**, **Axios** e o **AWS SDK** para JavaScript.
+O **AWSBridge** é um projeto que cria um servidor Node.js capaz de consumir uma API da AWS e invocar funções **AWS Lambda**. Este projeto serve como uma demonstração de como integrar serviços da AWS em um servidor web, utilizando **Express**, **Axios** e o **AWS SDK** para JavaScript.
 
 ## Funcionalidades
 
