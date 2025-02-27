@@ -32,4 +32,11 @@ Após configurar o arquivo, execute o servidor com o seguinte comando:
 node index.js
 ```
 
+## Testar o servidor:
+
+Use o navegador ou ferramentas como **Postman** para fazer as requisições:
+
+- `http://localhost:3000/consumir-api` — Para consumir a API da AWS.
+- `http://localhost:3000/invocar-lambda` — Para invocar a função Lambda.
+
 
